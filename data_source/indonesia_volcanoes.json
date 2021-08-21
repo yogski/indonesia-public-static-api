@@ -1,0 +1,1052 @@
+[
+    {
+        "nama": "Weh",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "617 meter",
+        "estimasi_letusan_terakhir": "Pleistosen",
+        "geolokasi": "5.82°N 95.28°E"
+    },
+    {
+        "nama": "Seulawah Agam",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1810 meter",
+        "estimasi_letusan_terakhir": 1839,
+        "geolokasi": "5.448°N 95.658°E"
+    },
+    {
+        "nama": "Peuet Sagoe",
+        "bentuk": "kompleks",
+        "tinggi_meter": "2801 meter",
+        "estimasi_letusan_terakhir": "25 Desember 2000",
+        "geolokasi": "4.914°N 96.329°E"
+    },
+    {
+        "nama": "Geureudong",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2885 meter",
+        "estimasi_letusan_terakhir": 1937,
+        "geolokasi": "4.813°N 96.82°E"
+    },
+    {
+        "nama": "Kembar",
+        "bentuk": "perisai",
+        "tinggi_meter": "2245 meter",
+        "estimasi_letusan_terakhir": "Pleistosen",
+        "geolokasi": "3.850°N 97.664°E"
+    },
+    {
+        "nama": "Sibayak",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2212 meter",
+        "estimasi_letusan_terakhir": 1881,
+        "geolokasi": "3.23°N 98.52°E"
+    },
+    {
+        "nama": "Sinabung",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2460 meter",
+        "estimasi_letusan_terakhir": "2 Maret 2021",
+        "geolokasi": "3.17°N 98.392°E"
+    },
+    {
+        "nama": "Gunung Toba",
+        "bentuk": "supervulkan",
+        "tinggi_meter": "2157 meter",
+        "estimasi_letusan_terakhir": "72000 SM",
+        "geolokasi": "2.58°N 98.83°E"
+    },
+    {
+        "nama": "Helatoba-Tarutung",
+        "bentuk": "Fumarol",
+        "tinggi_meter": "1100 meter",
+        "estimasi_letusan_terakhir": "Pleistosen",
+        "geolokasi": "2.03°N 98.93°E"
+    },
+    {
+        "nama": "Imun",
+        "bentuk": "N/A",
+        "tinggi_meter": "1505 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "2.158°N 98.93°E"
+    },
+    {
+        "nama": "Sibualbuali",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1819 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "1.556°N 99.255°E"
+    },
+    {
+        "nama": "Lubukraya",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1862 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "1.478°N 99.209°E"
+    },
+    {
+        "nama": "Sorikmarapi",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2145 meter",
+        "estimasi_letusan_terakhir": 1986,
+        "geolokasi": "0.686°N 99.539°E"
+    },
+    {
+        "nama": "Talakmau",
+        "bentuk": "kompleks",
+        "tinggi_meter": "2919 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.079°N 99.98°E"
+    },
+    {
+        "nama": "Sarik-Gajah",
+        "bentuk": "kerucut",
+        "tinggi_meter": "N/A",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.008°N 100.20°E"
+    },
+    {
+        "nama": "Marapi",
+        "bentuk": "kompleks",
+        "tinggi_meter": "2891 meter",
+        "estimasi_letusan_terakhir": "6 Juli 2017",
+        "geolokasi": "0.381°S 100.473°E"
+    },
+    {
+        "nama": "Singgalang",
+        "bentuk": "Stratovulkan",
+        "tinggi_meter": "2877 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.420°S 100.317°E"
+    },
+    {
+        "nama": "Tandikat",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2438 meter",
+        "estimasi_letusan_terakhir": 1924,
+        "geolokasi": "0.433°S 100.317°E"
+    },
+    {
+        "nama": "Sago",
+        "bentuk": "Stratovulkan",
+        "tinggi_meter": "2271 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.354°S 100.378°E"
+    },
+    {
+        "nama": "Talang",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2597 meter",
+        "estimasi_letusan_terakhir": "12 April 2005",
+        "geolokasi": "0.978°S 100.679°E"
+    },
+    {
+        "nama": "Kerinci",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3800 meter",
+        "estimasi_letusan_terakhir": "17 Oktober 2020",
+        "geolokasi": "1.697°S 101.264°E"
+    },
+    {
+        "nama": "Hutapanjang",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2021 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "2.33°S 101.60°E"
+    },
+    {
+        "nama": "Sumbing",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2507 meter",
+        "estimasi_letusan_terakhir": "23 Mei 1921",
+        "geolokasi": "2.414°S 101.728°E"
+    },
+    {
+        "nama": "Kunyit",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2151 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "2.592°S 101.63°E"
+    },
+    {
+        "nama": "Pendan",
+        "bentuk": "N/A",
+        "tinggi_meter": "N/A",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "2.82°S 102.02°E"
+    },
+    {
+        "nama": "Belirang-Beriti",
+        "bentuk": "gabungan",
+        "tinggi_meter": "1958 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "2.82°S 102.18°E"
+    },
+    {
+        "nama": "Bukit Daun",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2467 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "3.38°S 102.37°E"
+    },
+    {
+        "nama": "Kaba",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1952 meter",
+        "estimasi_letusan_terakhir": "22 Agustus 2000",
+        "geolokasi": "3.52°S 102.62°E"
+    },
+    {
+        "nama": "Dempo",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3173 meter",
+        "estimasi_letusan_terakhir": "1 Januari 2009",
+        "geolokasi": "4.03°S 103.13°E"
+    },
+    {
+        "nama": "Patah",
+        "bentuk": "N/A",
+        "tinggi_meter": "2852 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "4.27°S 103.30°E"
+    },
+    {
+        "nama": "Bukit Lumut Balai",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2055 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "4.23°S 103.62°E"
+    },
+    {
+        "nama": "Besar",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1899 meter",
+        "estimasi_letusan_terakhir": "April 1940",
+        "geolokasi": "4.43°S 103.67°E"
+    },
+    {
+        "nama": "Ranau",
+        "bentuk": "kaldera",
+        "tinggi_meter": "1881 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "4.83°S 103.92°E"
+    },
+    {
+        "nama": "Sekincau Belirang",
+        "bentuk": "kaldera",
+        "tinggi_meter": "1719 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "5.12°S 104.32°E"
+    },
+    {
+        "nama": "Suoh",
+        "bentuk": "kaldera",
+        "tinggi_meter": "1000 meter",
+        "estimasi_letusan_terakhir": "10 Juli 1933",
+        "geolokasi": "5.25°S 104.27°E"
+    },
+    {
+        "nama": "Hulubelu",
+        "bentuk": "kaldera",
+        "tinggi_meter": "1040 meter",
+        "estimasi_letusan_terakhir": 1836,
+        "geolokasi": "5.35°S 104.60°E"
+    },
+    {
+        "nama": "Rajabasa",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1281 meter",
+        "estimasi_letusan_terakhir": 1798,
+        "geolokasi": "5.78°S 105.625°E"
+    },
+    {
+        "nama": "Krakatau",
+        "bentuk": "kaldera",
+        "tinggi_meter": "813 meter",
+        "estimasi_letusan_terakhir": "22 Desember 2018",
+        "geolokasi": "6.102°S 105.423°E"
+    },
+    {
+        "nama": "Pulosari",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1346 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "6.342°S 105.975°E"
+    },
+    {
+        "nama": "Karang",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1778 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "6.27°S 106.042°E"
+    },
+    {
+        "nama": "Kiaraberes-Gagak",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1511 meter",
+        "estimasi_letusan_terakhir": "6 April 1939",
+        "geolokasi": "6.73°S 106.65°E"
+    },
+    {
+        "nama": "Perbakti",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1699 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "6.75°S 106.68°E"
+    },
+    {
+        "nama": "Salak",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2211 meter",
+        "estimasi_letusan_terakhir": "31 Januari 1938",
+        "geolokasi": "6.72°S 106.73°E"
+    },
+    {
+        "nama": "Gede",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2958 meter",
+        "estimasi_letusan_terakhir": "13 Maret 1957",
+        "geolokasi": "6.78°S 106.98°E"
+    },
+    {
+        "nama": "Patuha",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2434 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.160°S 107.40°E"
+    },
+    {
+        "nama": "Wayang-Windu",
+        "bentuk": "kubah lava",
+        "tinggi_meter": "2182 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.208°S 107.63°E"
+    },
+    {
+        "nama": "Malabar",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2343 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.13°S 107.65°E"
+    },
+    {
+        "nama": "Tangkuban Perahu",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2084 meter",
+        "estimasi_letusan_terakhir": "2 Agustus 2019",
+        "geolokasi": "6.77°S 107.60°E"
+    },
+    {
+        "nama": "Papandayan",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2665 meter",
+        "estimasi_letusan_terakhir": "11 November 2002",
+        "geolokasi": "7.32°S 107.73°E"
+    },
+    {
+        "nama": "Kendang",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2608 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.23°S 107.72°E"
+    },
+    {
+        "nama": "Kamojang",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1730 meter",
+        "estimasi_letusan_terakhir": "Pleistosen",
+        "geolokasi": "7.125°S 107.80°E"
+    },
+    {
+        "nama": "Guntur",
+        "bentuk": "kompleks",
+        "tinggi_meter": "2249 meter",
+        "estimasi_letusan_terakhir": "16 Oktober 1847",
+        "geolokasi": "7.143°S 107.840°E"
+    },
+    {
+        "nama": "Tampomas",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1684 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "6.77°S 107.95°E"
+    },
+    {
+        "nama": "Galunggung",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2168 meter",
+        "estimasi_letusan_terakhir": "9 Januari 1984",
+        "geolokasi": "7.25°S 108.058°E"
+    },
+    {
+        "nama": "Talagabodas",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2201 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.208°S 108.07°E"
+    },
+    {
+        "nama": "Karaha",
+        "bentuk": "fumarol",
+        "tinggi_meter": "1155 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.12°S 108.08°E"
+    },
+    {
+        "nama": "Ciremai",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3078 meter",
+        "estimasi_letusan_terakhir": 1938,
+        "geolokasi": "6.892°S 108.40°E"
+    },
+    {
+        "nama": "Slamet",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3432 meter",
+        "estimasi_letusan_terakhir": "14 Maret 2014",
+        "geolokasi": "7.242°S 109.208°E"
+    },
+    {
+        "nama": "Dieng",
+        "bentuk": "kompleks",
+        "tinggi_meter": "2565 meter",
+        "estimasi_letusan_terakhir": "31 Desember 1996",
+        "geolokasi": "7.20°S 109.92°E"
+    },
+    {
+        "nama": "Sindoro",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3136 meter",
+        "estimasi_letusan_terakhir": "29 Oktober 2011",
+        "geolokasi": "7.30°S 109.992°E"
+    },
+    {
+        "nama": "Sumbing",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3371 meter",
+        "estimasi_letusan_terakhir": 1730,
+        "geolokasi": "7.384°S 110.070°E"
+    },
+    {
+        "nama": "Ungaran",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2050 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.18°S 110.33°E"
+    },
+    {
+        "nama": "Telomoyo",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1894 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.37°S 110.40°E"
+    },
+    {
+        "nama": "Merbabu",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3145 meter",
+        "estimasi_letusan_terakhir": 1797,
+        "geolokasi": "7.45°S 110.43°E"
+    },
+    {
+        "nama": "Merapi",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2968 meter",
+        "estimasi_letusan_terakhir": 2021,
+        "geolokasi": "7.542°S 110.442°E"
+    },
+    {
+        "nama": "Muria",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1625 meter",
+        "estimasi_letusan_terakhir": "160 SM",
+        "geolokasi": "6.62°S 110.88°E"
+    },
+    {
+        "nama": "Lawu",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3265 meter",
+        "estimasi_letusan_terakhir": "28 November 1885",
+        "geolokasi": "7.625°S 111.192°E"
+    },
+    {
+        "nama": "Wilis",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2563 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.808°S 111.758°E"
+    },
+    {
+        "nama": "Kelud",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1731 meter",
+        "estimasi_letusan_terakhir": "13 Februari 2014",
+        "geolokasi": "7.93°S 112.308°E"
+    },
+    {
+        "nama": "Kawi-Butak",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2651 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.92°S 112.45°E"
+    },
+    {
+        "nama": "Arjuno-Welirang",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3339 meter",
+        "estimasi_letusan_terakhir": "15 Agustus 1952",
+        "geolokasi": "7.725°S 112.58°E"
+    },
+    {
+        "nama": "Penanggungan",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1653 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.62°S 112.63°E"
+    },
+    {
+        "nama": "Malang",
+        "bentuk": "maar",
+        "tinggi_meter": "680 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "8.02°S 112.68°E"
+    },
+    {
+        "nama": "Semeru",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3676 meter",
+        "estimasi_letusan_terakhir": 2020,
+        "geolokasi": "8.108°S 112.92°E"
+    },
+    {
+        "nama": "Bromo",
+        "bentuk": "kerucut bara",
+        "tinggi_meter": "2329 meter",
+        "estimasi_letusan_terakhir": "8 Juni 2016",
+        "geolokasi": "7.942°S 112.95°E"
+    },
+    {
+        "nama": "Lamongan",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1651 meter",
+        "estimasi_letusan_terakhir": "5 Februari 1898",
+        "geolokasi": "7.979°S 113.342°E"
+    },
+    {
+        "nama": "Lurus",
+        "bentuk": "kompleks",
+        "tinggi_meter": "539 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.73°S 113.58°E"
+    },
+    {
+        "nama": "Iyang-Argapura",
+        "bentuk": "kompleks",
+        "tinggi_meter": "3088 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.97°S 113.57°E"
+    },
+    {
+        "nama": "Raung",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3332 meter",
+        "estimasi_letusan_terakhir": "21 Januari 2021",
+        "geolokasi": "8.125°S 114.042°E"
+    },
+    {
+        "nama": "Ijen",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2799 meter",
+        "estimasi_letusan_terakhir": "28 Juni 1999",
+        "geolokasi": "8.058°S 114.242°E"
+    },
+    {
+        "nama": "Baluran",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1247 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.85°S 114.37°E"
+    },
+    {
+        "nama": "Merbuk",
+        "bentuk": "N/A",
+        "tinggi_meter": "1386 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "-"
+    },
+    {
+        "nama": "Bratan",
+        "bentuk": "kaldera",
+        "tinggi_meter": "2276 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "8.28°S 115.13°E"
+    },
+    {
+        "nama": "Batur",
+        "bentuk": "kaldera",
+        "tinggi_meter": "1717 meter",
+        "estimasi_letusan_terakhir": "15 Maret 1999",
+        "geolokasi": "8.242°S 115.375°E"
+    },
+    {
+        "nama": "Agung",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3142 meter",
+        "estimasi_letusan_terakhir": "2 Juli 2018",
+        "geolokasi": "8.342°S 115.508°E"
+    },
+    {
+        "nama": "Rinjani",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "3726 meter",
+        "estimasi_letusan_terakhir": "27 September 2016",
+        "geolokasi": "8.42°S 116.47°E"
+    },
+    {
+        "nama": "Tambora",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2722 meter",
+        "estimasi_letusan_terakhir": 1967,
+        "geolokasi": "8.25°S 118.00°E"
+    },
+    {
+        "nama": "Sangeang Api",
+        "bentuk": "kompleks",
+        "tinggi_meter": "1949 meter",
+        "estimasi_letusan_terakhir": "30 Juli 1985",
+        "geolokasi": "8.20°S 119.07°E"
+    },
+    {
+        "nama": "Wai Sano",
+        "bentuk": "kaldera",
+        "tinggi_meter": "903 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "8.72°S 120.02°E"
+    },
+    {
+        "nama": "Poco Leok",
+        "bentuk": "N/A",
+        "tinggi_meter": "1675 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "8.68°S 120.48°E"
+    },
+    {
+        "nama": "Ranaka",
+        "bentuk": "kubah lava",
+        "tinggi_meter": "2100 meter",
+        "estimasi_letusan_terakhir": "Maret 1991",
+        "geolokasi": "8.62°S 120.52°E"
+    },
+    {
+        "nama": "Inierie",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2245 meter",
+        "estimasi_letusan_terakhir": "8050 SM",
+        "geolokasi": "8.875°S 120.95°E"
+    },
+    {
+        "nama": "Inielika",
+        "bentuk": "kompleks",
+        "tinggi_meter": "1559 meter",
+        "estimasi_letusan_terakhir": "11 Januari 2001",
+        "geolokasi": "8.73°S 120.98°E"
+    },
+    {
+        "nama": "Ebulobo",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "2124 meter",
+        "estimasi_letusan_terakhir": "27 Februari 1969",
+        "geolokasi": "8.82°S 121.18°E"
+    },
+    {
+        "nama": "Iya",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "637 meter",
+        "estimasi_letusan_terakhir": "27 Januari 1969",
+        "geolokasi": "8.897°S 121.645°E"
+    },
+    {
+        "nama": "Sukaria",
+        "bentuk": "kaldera",
+        "tinggi_meter": "1500 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "8.792°S 121.77°E"
+    },
+    {
+        "nama": "Ndete Napu",
+        "bentuk": "fumarol",
+        "tinggi_meter": "750 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "8.72°S 121.78°E"
+    },
+    {
+        "nama": "Kelimutu",
+        "bentuk": "kompleks",
+        "tinggi_meter": "1639 meter",
+        "estimasi_letusan_terakhir": "3 Juni 1968",
+        "geolokasi": "8.77°S 121.82°E"
+    },
+    {
+        "nama": "Paluweh",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "875 meter",
+        "estimasi_letusan_terakhir": "3 Februari 1985",
+        "geolokasi": "8.32°S 121.708°E"
+    },
+    {
+        "nama": "Egon",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1703 meter",
+        "estimasi_letusan_terakhir": "6 Februari 2005",
+        "geolokasi": "8.67°S 122.45°E"
+    },
+    {
+        "nama": "Ilimuda",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1100 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "8.478°S 122.671°E"
+    },
+    {
+        "nama": "Lewotobi",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1703 meter",
+        "estimasi_letusan_terakhir": "30 Mei 2003",
+        "geolokasi": "8.542°S 122.775°E"
+    },
+    {
+        "nama": "Leroboleng",
+        "bentuk": "kompleks",
+        "tinggi_meter": "1117 meter",
+        "estimasi_letusan_terakhir": "26 Juni 2003",
+        "geolokasi": "8.358°S 122.842°E"
+    },
+    {
+        "nama": "Riang Kotang",
+        "bentuk": "fumarol",
+        "tinggi_meter": "200 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "8.30°S 122.892°E"
+    },
+    {
+        "nama": "Iliboleng",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1659 meter",
+        "estimasi_letusan_terakhir": "Juni 1993",
+        "geolokasi": "8.342°S 123.258°E"
+    },
+    {
+        "nama": "Lewotolo",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1423 meter",
+        "estimasi_letusan_terakhir": "15 Desember 1951",
+        "geolokasi": "8.272°S 123.505°E"
+    },
+    {
+        "nama": "Ililabalekan",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1018 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "8.55°S 123.38°E"
+    },
+    {
+        "nama": "Iliwerung",
+        "bentuk": "kompleks",
+        "tinggi_meter": "1018 meter",
+        "estimasi_letusan_terakhir": "22 Mei 1999",
+        "geolokasi": "8.53°S 123.57°E"
+    },
+    {
+        "nama": "Batu Tara",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "748 meter",
+        "estimasi_letusan_terakhir": 1847,
+        "geolokasi": "7.792°S 123.579°E"
+    },
+    {
+        "nama": "Sirung",
+        "bentuk": "kompleks",
+        "tinggi_meter": "862 meter",
+        "estimasi_letusan_terakhir": 1970,
+        "geolokasi": "8.508°S 124.13°E"
+    },
+    {
+        "nama": "Yersey",
+        "bentuk": "bawah laut",
+        "tinggi_meter": "−3800 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "7.53°S 123.95°E"
+    },
+    {
+        "nama": "Kaisar Tiongkok",
+        "bentuk": "bawah laut",
+        "tinggi_meter": "−2850 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "6.62°S 124.22°E"
+    },
+    {
+        "nama": "Nieuwerkerk",
+        "bentuk": "bawah laut",
+        "tinggi_meter": "−2285 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "6.60°S 124.675°E"
+    },
+    {
+        "nama": "Gunungapi Wetar",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "282 meter",
+        "estimasi_letusan_terakhir": 1699,
+        "geolokasi": "6.642°S 126.65°E"
+    },
+    {
+        "nama": "Wurlali",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "868 meter",
+        "estimasi_letusan_terakhir": "3 Juni 1892",
+        "geolokasi": "7.125°S 128.675°E"
+    },
+    {
+        "nama": "Teon",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "655 meter",
+        "estimasi_letusan_terakhir": "3 Juni 1904",
+        "geolokasi": "6.92°S 129.125°E"
+    },
+    {
+        "nama": "Nila",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "781 meter",
+        "estimasi_letusan_terakhir": "7 Mei 1968",
+        "geolokasi": "6.73°S 129.50°E"
+    },
+    {
+        "nama": "Serua",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "641 meter",
+        "estimasi_letusan_terakhir": "18 September 1921",
+        "geolokasi": "6.30°S 130.00°E"
+    },
+    {
+        "nama": "Manuk",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "282 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "5.53°S 130.292°E"
+    },
+    {
+        "nama": "Banda Api",
+        "bentuk": "kaldera",
+        "tinggi_meter": "640 meter",
+        "estimasi_letusan_terakhir": "9 Mei 1988",
+        "geolokasi": "4.525°S 129.871°E"
+    },
+    {
+        "nama": "Colo",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "507 meter",
+        "estimasi_letusan_terakhir": "18 Juli 1983",
+        "geolokasi": "0.17°S 121.608°E"
+    },
+    {
+        "nama": "Ambang",
+        "bentuk": "kompleks",
+        "tinggi_meter": "1795 meter",
+        "estimasi_letusan_terakhir": 1845,
+        "geolokasi": "0.75°N 124.42°E"
+    },
+    {
+        "nama": "Soputan",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1784 meter",
+        "estimasi_letusan_terakhir": "30 Oktober 2007",
+        "geolokasi": "1.108°N 124.73°E"
+    },
+    {
+        "nama": "Sempu",
+        "bentuk": "kaldera",
+        "tinggi_meter": "1549 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "1.13°N 124.758°E"
+    },
+    {
+        "nama": "Tondano",
+        "bentuk": "kaldera",
+        "tinggi_meter": "1202 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "1.23°N 124.83°E"
+    },
+    {
+        "nama": "Lokon-Empung",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1580 meter",
+        "estimasi_letusan_terakhir": "15 Juli 2011",
+        "geolokasi": "1.358°N 124.792°E"
+    },
+    {
+        "nama": "Mahawu",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1324 meter",
+        "estimasi_letusan_terakhir": "16 November 1977",
+        "geolokasi": "1.358°N 124.858°E"
+    },
+    {
+        "nama": "Klabat",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1995 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "1.47°N 125.03°E"
+    },
+    {
+        "nama": "Tongkoko",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1149 meter",
+        "estimasi_letusan_terakhir": 1880,
+        "geolokasi": "1.52°N 125.20°E"
+    },
+    {
+        "nama": "Ruang",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "725 meter",
+        "estimasi_letusan_terakhir": "25 September 2002",
+        "geolokasi": "2.30°N 125.37°E"
+    },
+    {
+        "nama": "Karangetang",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1784 meter",
+        "estimasi_letusan_terakhir": "Agustus 2007",
+        "geolokasi": "2.78°N 125.40°E"
+    },
+    {
+        "nama": "Banua Wuhu",
+        "bentuk": "bawah laut",
+        "tinggi_meter": "−5 meter",
+        "estimasi_letusan_terakhir": "18 Juli 1919",
+        "geolokasi": "3.138°N 125.491°E"
+    },
+    {
+        "nama": "Awu",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1320 meter",
+        "estimasi_letusan_terakhir": "2 Juni 2004",
+        "geolokasi": "3.67°N 125.50°E"
+    },
+    {
+        "nama": "Submarine 1922",
+        "bentuk": "bawah laut",
+        "tinggi_meter": "−5000 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "3.97°N 125.17°E"
+    },
+    {
+        "nama": "Tarakan",
+        "bentuk": "kerucut piroklastik",
+        "tinggi_meter": "318 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "1.83°N 127.83°E"
+    },
+    {
+        "nama": "Dukono",
+        "bentuk": "kompleks",
+        "tinggi_meter": "1335 meter",
+        "estimasi_letusan_terakhir": "13 Agustus 1933",
+        "geolokasi": "1.68°N 127.88°E"
+    },
+    {
+        "nama": "Tobaru",
+        "bentuk": "N/A",
+        "tinggi_meter": "1035 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "1.63°N 127.67°E"
+    },
+    {
+        "nama": "Ibu",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1325 meter",
+        "estimasi_letusan_terakhir": "Mei 2005",
+        "geolokasi": "1.488°N 127.63°E"
+    },
+    {
+        "nama": "Gamkonora",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1635 meter",
+        "estimasi_letusan_terakhir": "9 Juli 2007",
+        "geolokasi": "1.38°N 127.53°E"
+    },
+    {
+        "nama": "Todoko-Ranu",
+        "bentuk": "kaldera",
+        "tinggi_meter": "979 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "1.25°N 127.47°E"
+    },
+    {
+        "nama": "Jailolo",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1130 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "1.08°N 127.42°E"
+    },
+    {
+        "nama": "Hiri",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "630 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.90°N 127.32°E"
+    },
+    {
+        "nama": "Gamalama",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1715 meter",
+        "estimasi_letusan_terakhir": "31 Juli 2003",
+        "geolokasi": "0.80°N 127.33°E"
+    },
+    {
+        "nama": "Gunung Tidore",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1730 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.658°N 127.40°E"
+    },
+    {
+        "nama": "Mare",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "308 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.57°N 127.40°E"
+    },
+    {
+        "nama": "Moti",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "950 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.45°N 127.40°E"
+    },
+    {
+        "nama": "Kie Besi",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1357 meter",
+        "estimasi_letusan_terakhir": "29 Juli 1988",
+        "geolokasi": "0.32°N 127.40°E"
+    },
+    {
+        "nama": "Tigalalu",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "422 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.07°N 127.42°E"
+    },
+    {
+        "nama": "Amasing",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "1030 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.53°S 127.48°E"
+    },
+    {
+        "nama": "Bibinoi",
+        "bentuk": "stratovulkan",
+        "tinggi_meter": "900 meter",
+        "estimasi_letusan_terakhir": "N/A",
+        "geolokasi": "0.77°S 127.72°E"
+    }
+]

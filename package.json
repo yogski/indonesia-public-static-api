@@ -1,4 +1,7 @@
 {
+  "name": "indonesia-public-static-api",
+  "displayName": "Indonesia Public Static API",
+  "author": "Yogi Saputro",
   "private": true,
   "scripts": {
     "dev": "next",
