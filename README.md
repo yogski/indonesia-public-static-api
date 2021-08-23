@@ -25,7 +25,7 @@ Live API :
 | `GET`  | `/api/heroes` | - | Tampilkan data semua pahlawan nasional | `/api/heroes` |
 | `GET`  | `/api/heroes?name=` | `name`: `string` | Cari pahlawan berdasarkan nama | `/api/heroes?name=nasution` |
 | `GET`  | `/api/heroes?q=` | `q`: `string` | Cari pahlawan berdasarkan nama atau deskripsi atau kata kunci | `/api/heroes?q=angkatan` |
-| `GET`  | `/api/heroes?is_alive_max=&is_alive_min` | `is_alive_min`: `integer`, `is_alive_max`: `integer` | Cari pahlawan yang hidup di periode tertentu | `/api/heroes?is_alive_min=1900&is_alive_max=1945` |
+| `GET`  | `/api/heroes?alive_in_end=&alive_in_start=` | `alive_in_start`: `integer`, `alive_in_end`: `integer` | Cari pahlawan yang hidup di periode tertentu | `/api/heroes?alive_in_start=1900&alive_in_end=1945` |
 | `GET`  | `/api/heroes?birth_year_start=&birth_year_end` | `birth_year_start`: `integer`, `birth_year_end`: `integer` | Cari pahlawan yang lahir di rentang tahun tertentu | `/api/heroes?birth_year_start=1900&birth_year_end=1945` |
 | `GET`  | `/api/heroes?death_year_start=&death_year_end` | `death_year_start`: `integer`, `death_year_end`: `integer` | Cari pahlawan yang meninggal/gugur di rentang tahun tertentu | `/api/heroes?death_year_start=1900&death_year_end=1945` |
 | `GET`  | `/api/heroes?ascend_year_start=&ascend_year_end` | `ascend_year_start`: `integer`, `ascend_year_end`: `integer` | Cari pahlawan yang diangkat sebagai pahlawan nasional di rentang tahun tertentu | `/api/heroes?ascend_year_start=1900&ascend_year_end=1945` |

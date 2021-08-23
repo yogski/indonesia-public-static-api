@@ -1,5 +1,5 @@
 export default function Index() {
   return (
-    `{status : ok}`
+    <p>Status: OK</p>
   )
 }

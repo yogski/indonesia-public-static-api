@@ -2,11 +2,15 @@
   "name": "indonesia-public-static-api",
   "displayName": "Indonesia Public Static API",
   "author": "Yogi Saputro",
-  "private": true,
+  "private": false,
+  "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "ship":"next build && next export",
+    "copy-gh": "cp -a ./out/. ../yogski.github.io/static-api"
   },
   "dependencies": {
     "next": "latest",
