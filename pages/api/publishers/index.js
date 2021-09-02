@@ -1,4 +1,5 @@
-import publishers from '../../../data_source/indonesia_publishers.json'
+import publishers from '../../../data_source/indonesia_publishers.json';
+import { publisherArea } from '../../../helpers/enums';
 
 /**
  * 
@@ -10,26 +11,41 @@ export default function handler(req, res) {
 
   if (req.query['name']) {
     result = result.filter((publisher) => {
-      return publisher.nama.toLowerCase().includes(req.query['name'].toLowerCase());
+      return publisher.penerbit.toLowerCase().includes(req.query['name'].toLowerCase());
     });
   }
 
-  if (req.query['type']) {
+  if (req.query['area']) {
+    let selectedArea = [];
+    let selectedPublishers = [];
+    publisherArea.map((target) => {
+      if (req.query['area'].includes(target.id)) {
+        selectedArea.push(target.area);
+      }
+    })
+    result.map((publisher) => {
+      if (selectedArea.includes(publisher.wilayah)) {
+        selectedPublishers.push(publisher);
+      }
+    })
+    result = selectedPublishers;
+  }
+
+  if (req.query['registered_year_start']) {
     result = result.filter((publisher) => {
-      return publisher.bentuk.toLowerCase().includes(req.query['type'].toLowerCase());
+      return parseInt(publisher.tahun_masuk) >= req.query['registered_year_start']
     });
   }
 
-  if (req.query['min_height']) {
+  if (req.query['registered_year_end']) {
     result = result.filter((publisher) => {
-      return parseInt(publisher.tinggi_meter) >= req.query['min_height']
+      return parseInt(publisher.tahun_masuk) <= req.query['registered_year_end']
     });
   }
 
-  if (req.query['max_height']) {
-    result = result.filter((publisher) => {
-      return parseInt(publisher.tinggi_meter) <= req.query['max_height']
-    });
+  if (req.query['count_only'] == true) {
+    res.status(200).json({count: result.length});
+    return;
   }
 
   res.status(200).json(result);

@@ -14,6 +14,7 @@ Live API :
   - [Dokumentasi](#dokumentasi)
     - [API Pahlawan Nasional Indonesia `/api/heroes`](#api-pahlawan-nasional-indonesia-apiheroes)
     - [API Gunung Berapi Indonesia `/api/volcanoes`](#api-gunung-berapi-indonesia-apivolcanoes)
+    - [API Daftar Penerbit Buku Indonesia `/api/publishers`](#api-daftar-penerbit-buku-indonesia-apipublishers)
   - [FAQ / Pertanyaan](#faq--pertanyaan)
 
 
@@ -39,11 +40,32 @@ Parameter query API
 | Param | Deskripsi | Tipe Data | Contoh |
 |--------|-------|-----|------|
 | `name` | Filter berdasarkan nama gunung | `string` | `/api/volcanoes?name=merapi` |
-| `type` | Filter berdasarkan jenis gunung | `enum` : `stratovulkan`, `kaldera`, `supervulkan`, `maar`, `fumarol`, `kubah lava`, `perisai`, `kerucut`, `kerucut bara`, `bawah laut`, `kompleks` | `/api/volcanoes?type=kompleks` |
+| `type` | Filter berdasarkan jenis gunung | `enum` : <br>`stratovulkan` <br>`kaldera` <br> `supervulkan`<br> `maar`<br> `fumarol`<br> `kubah lava`<br> `perisai`<br> `kerucut`<br> `kerucut bara`<br> `bawah laut`<br> `kompleks` | `/api/volcanoes?type=kompleks` |
 | `min_height` | Filter berdasarkan ketinggian minimum (dalam meter) | `integer / number` | `/api/volcanoes?min_height=1800` |
 | `max_height` | Filter ketinggian maksimum (dalam meter) | `integer / number` | `/api/volcanoes?max_height=2800` |
 
 Berbagai parameter query dapat digunakan secara bersamaan. Misal ingin mencari gunung tipe stratovulkan dengan ketinggian di bawah 3000 meter, gunakan query berikut : `/api/volcanoes?type=stratovulkan&max_height=3000`.
+
+### API Daftar Penerbit Buku Indonesia `/api/publishers`
+
+| HTTP Method | Route | Deskripsi |
+|--------|----------------|------------|
+| `GET`  | `/api/publishers` | Informasi penerbit buku Indonesia yang terdaftar di IKAPI |
+
+Parameter query API
+| Param | Deskripsi | Tipe Data | Contoh |
+|--------|-------|-----|------|
+| `name` | Filter berdasarkan nama penerbit | `string` | `/api/publishers?name=pustaka` |
+| `area` | Filter berdasarkan kode wilayah yang dipilih. Lihat tabel list kode wilayah di bawah untuk keterangan lebih lanjut | `string[]` | `/api/publishers?area=3&area=10&area=16` |
+| `registered_year_start` | Filter berdasarkan tahun masuk IKAPI (batas bawah) | `integer / number` | `/api/publishers?registered_year_start=2000` |
+| `registered_year_end` | Filter berdasarkan tahun masuk IKAPI (batas atas)| `integer / number` | `/api/publishers?registered_year_end=2005` |
+| `count_only` | Tampilkan hanya jumlah data| `boolean (0 atau 1)` | `/api/publishers?count_only=1` |
+
+
+Semua parameter query dapat dikombinasikan untuk pencarian spesifik. Contoh:
+- Penerbit wilayah DI Yogyakarta yang didirikan sebelum 1995 --> `/api/publishers?area=7&registered_year_end=1995`.
+- Penerbit dengan nama 'Bintang' yang didirikan antara 2010 dan 2020 --> `/api/publishers?name=bintang&registered_year_start=2010&registered_year_end=2020`
+- Jumlah penerbit di wilayah Jawa Tengah dan Jawa Timur --> `/api/publishers?area=5&area=6&count_only=1`
 
 ## FAQ / Pertanyaan
 > Apakah API ini bisa diakses gratis?
