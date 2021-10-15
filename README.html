@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Indonesia Public Static API</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="indonesia-public-static-api">Indonesia Public Static API</h1>
+<p>Kumpulan API statis dari data publik yang diterbitkan pemerintah Republik Indonesia. Dibuat dengan Next.js.</p>
+<p>Oleh : <a href="https://yogski.github.io">Yogi Saputro</a></p>
+<p>Sumber data : <a href="https://github.com/yogski/indonesian_public_data">https://github.com/yogski/indonesian_public_data</a>.</p>
+<p>Live API :</p>
+<h2 id="daftar-isi">Daftar Isi</h2>
+<ul>
+<li><a href="#indonesia-public-static-api">Indonesia Public Static API</a>
+<ul>
+<li><a href="#daftar-isi">Daftar Isi</a></li>
+<li><a href="#dokumentasi">Dokumentasi</a>
+<ul>
+<li><a href="#api-pahlawan-nasional-indonesia-apiheroes">API Pahlawan Nasional Indonesia <code>/api/heroes</code></a></li>
+<li><a href="#api-gunung-berapi-indonesia-apivolcanoes">API Gunung Berapi Indonesia <code>/api/volcanoes</code></a></li>
+<li><a href="#api-daftar-penerbit-buku-indonesia-apipublishers">API Daftar Penerbit Buku Indonesia <code>/api/publishers</code></a></li>
+</ul>
+</li>
+<li><a href="#faq--pertanyaan">FAQ / Pertanyaan</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="dokumentasi">Dokumentasi</h2>
+<h3 id="api-pahlawan-nasional-indonesia-apiheroes">API Pahlawan Nasional Indonesia <code>/api/heroes</code></h3>
+<table>
+<thead>
+<tr>
+<th>HTTP Method</th>
+<th>Route</th>
+<th>Parameter</th>
+<th>Deskripsi</th>
+<th>Contoh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/api/heroes</code></td>
+<td>-</td>
+<td>Tampilkan data semua pahlawan nasional</td>
+<td><code>/api/heroes</code></td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/api/heroes?name=</code></td>
+<td><code>name</code>: <code>string</code></td>
+<td>Cari pahlawan berdasarkan nama</td>
+<td><code>/api/heroes?name=nasution</code></td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/api/heroes?q=</code></td>
+<td><code>q</code>: <code>string</code></td>
+<td>Cari pahlawan berdasarkan nama atau deskripsi atau kata kunci</td>
+<td><code>/api/heroes?q=angkatan</code></td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/api/heroes?alive_in_end=&amp;alive_in_start=</code></td>
+<td><code>alive_in_start</code>: <code>integer</code>, <code>alive_in_end</code>: <code>integer</code></td>
+<td>Cari pahlawan yang hidup di periode tertentu</td>
+<td><code>/api/heroes?alive_in_start=1900&amp;alive_in_end=1945</code></td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/api/heroes?birth_year_start=&amp;birth_year_end</code></td>
+<td><code>birth_year_start</code>: <code>integer</code>, <code>birth_year_end</code>: <code>integer</code></td>
+<td>Cari pahlawan yang lahir di rentang tahun tertentu</td>
+<td><code>/api/heroes?birth_year_start=1900&amp;birth_year_end=1945</code></td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/api/heroes?death_year_start=&amp;death_year_end</code></td>
+<td><code>death_year_start</code>: <code>integer</code>, <code>death_year_end</code>: <code>integer</code></td>
+<td>Cari pahlawan yang meninggal/gugur di rentang tahun tertentu</td>
+<td><code>/api/heroes?death_year_start=1900&amp;death_year_end=1945</code></td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/api/heroes?ascend_year_start=&amp;ascend_year_end</code></td>
+<td><code>ascend_year_start</code>: <code>integer</code>, <code>ascend_year_end</code>: <code>integer</code></td>
+<td>Cari pahlawan yang diangkat sebagai pahlawan nasional di rentang tahun tertentu</td>
+<td><code>/api/heroes?ascend_year_start=1900&amp;ascend_year_end=1945</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="api-gunung-berapi-indonesia-apivolcanoes">API Gunung Berapi Indonesia <code>/api/volcanoes</code></h3>
+<table>
+<thead>
+<tr>
+<th>HTTP Method</th>
+<th>Route</th>
+<th>Deskripsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/api/volcanoes</code></td>
+<td>Informasi gunung berapi di Indonesia</td>
+</tr>
+</tbody>
+</table>
+<p>Parameter query API</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Deskripsi</th>
+<th>Tipe Data</th>
+<th>Contoh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>Filter berdasarkan nama gunung</td>
+<td><code>string</code></td>
+<td><code>/api/volcanoes?name=merapi</code></td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>Filter berdasarkan jenis gunung</td>
+<td><code>enum</code> : <br><code>stratovulkan</code> <br><code>kaldera</code> <br> <code>supervulkan</code><br> <code>maar</code><br> <code>fumarol</code><br> <code>kubah lava</code><br> <code>perisai</code><br> <code>kerucut</code><br> <code>kerucut bara</code><br> <code>bawah laut</code><br> <code>kompleks</code></td>
+<td><code>/api/volcanoes?type=kompleks</code></td>
+</tr>
+<tr>
+<td><code>min_height</code></td>
+<td>Filter berdasarkan ketinggian minimum (dalam meter)</td>
+<td><code>integer / number</code></td>
+<td><code>/api/volcanoes?min_height=1800</code></td>
+</tr>
+<tr>
+<td><code>max_height</code></td>
+<td>Filter ketinggian maksimum (dalam meter)</td>
+<td><code>integer / number</code></td>
+<td><code>/api/volcanoes?max_height=2800</code></td>
+</tr>
+</tbody>
+</table>
+<p>Berbagai parameter query dapat digunakan secara bersamaan. Misal ingin mencari gunung tipe stratovulkan dengan ketinggian di bawah 3000 meter, gunakan query berikut : <code>/api/volcanoes?type=stratovulkan&amp;max_height=3000</code>.</p>
+<h3 id="api-daftar-penerbit-buku-indonesia-apipublishers">API Daftar Penerbit Buku Indonesia <code>/api/publishers</code></h3>
+<table>
+<thead>
+<tr>
+<th>HTTP Method</th>
+<th>Route</th>
+<th>Deskripsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/api/publishers</code></td>
+<td>Informasi penerbit buku Indonesia yang terdaftar di IKAPI</td>
+</tr>
+</tbody>
+</table>
+<p>Parameter query API</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Deskripsi</th>
+<th>Tipe Data</th>
+<th>Contoh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>Filter berdasarkan nama penerbit</td>
+<td><code>string</code></td>
+<td><code>/api/publishers?name=pustaka</code></td>
+</tr>
+<tr>
+<td><code>area</code></td>
+<td>Filter berdasarkan kode wilayah yang dipilih. Lihat tabel list kode wilayah di bawah untuk keterangan lebih lanjut</td>
+<td><code>string[]</code></td>
+<td><code>/api/publishers?area=3&amp;area=10&amp;area=16</code></td>
+</tr>
+<tr>
+<td><code>registered_year_start</code></td>
+<td>Filter berdasarkan tahun masuk IKAPI (batas bawah)</td>
+<td><code>integer / number</code></td>
+<td><code>/api/publishers?registered_year_start=2000</code></td>
+</tr>
+<tr>
+<td><code>registered_year_end</code></td>
+<td>Filter berdasarkan tahun masuk IKAPI (batas atas)</td>
+<td><code>integer / number</code></td>
+<td><code>/api/publishers?registered_year_end=2005</code></td>
+</tr>
+<tr>
+<td><code>count_only</code></td>
+<td>Tampilkan hanya jumlah data</td>
+<td><code>boolean (0 atau 1)</code></td>
+<td><code>/api/publishers?count_only=1</code></td>
+</tr>
+</tbody>
+</table>
+<p>Semua parameter query dapat dikombinasikan untuk pencarian spesifik. Contoh:</p>
+<ul>
+<li>Penerbit wilayah DI Yogyakarta yang didirikan sebelum 1995 --&gt; <code>/api/publishers?area=7&amp;registered_year_end=1995</code>.</li>
+<li>Penerbit dengan nama 'Bintang' yang didirikan antara 2010 dan 2020 --&gt; <code>/api/publishers?name=bintang&amp;registered_year_start=2010&amp;registered_year_end=2020</code></li>
+<li>Jumlah penerbit di wilayah Jawa Tengah dan Jawa Timur --&gt; <code>/api/publishers?area=5&amp;area=6&amp;count_only=1</code></li>
+</ul>
+<h2 id="faq--pertanyaan">FAQ / Pertanyaan</h2>
+<blockquote>
+<p>Apakah API ini bisa diakses gratis?</p>
+</blockquote>
+<p><em>Ya, API ini bisa diakses secara gratis. Minimal untuk saat ini.</em></p>
+<blockquote>
+<p>Apakah saya harus login untuk akses API ini?</p>
+</blockquote>
+<p><em>Tidak, anda tak perlu login atau meminta akses API key. Setidaknya untuk saat ini.</em></p>
+<blockquote>
+<p>Apakah saya boleh request data untuk ditampilkan di API ini?</p>
+</blockquote>
+<p><em>Ya, anda bisa mengajukan lewat issue.</em></p>
+<blockquote>
+<p>Apakah saya bisa berkontribusi di repository ini?</p>
+</blockquote>
+<p><em>Tentu saja! Saya sangat apresiasi dukungan kontribusi. Proyek ini mengikuti semangat open source. Semakin banyak kontribusi, semakin baik. Anda bisa tambahkan data, atau membuat API dari data publik yang tersedia.</em></p>
+<blockquote>
+<p>Apakah API ini menggunakan database ?</p>
+</blockquote>
+<p><em>Tidak, sumber data API ini adalah file JSON yang tersedia di folder <code>data_source</code>.</em></p>
+<blockquote>
+<p>Apakah saya boleh mengambil data JSON untuk proyek saya ?</p>
+</blockquote>
+<p><em>Boleh, dengan syarat anda memberikan credit kepada repository ini sebagai sumber data. Ini sejalan dengan syarat lisensi MIT.</em></p>
+
+    </body>
+    </html>
